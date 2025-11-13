@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript async / await</h2>
+        <h1 id="result"></h1>
+        <script>
+            async function add(a,b) {
+                let response = await a + b;
+                document.getElementById("result").innerHTML = response;
+            }
+            add(13,12);
+        </script>
+    </body>
+</html>

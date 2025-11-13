@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="result"></p>
+        <script>
+        var myObj = { name: "Shivaansh", age: 11, grade: 6};
+        var myJASON = JSON.stringify(myObj);
+        var newObj =  JSON.parse(myJASON);
+        document.getElementById("result").innerHTML = newObj.age;
+        </script>
+    </body>
+</html>
